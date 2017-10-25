@@ -19,7 +19,7 @@ public class Concordance
 
         WordCounter(int sentenceNum)
         {
-            //first occurrence word, input current sentence number and initial count into map
+            //first occurrence of word, input current sentence number and initial count into map
             count = 1;
             countPerSentence = new HashMap<>();
             countPerSentence.put(sentenceNum, 1);
